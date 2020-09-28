@@ -30,4 +30,5 @@ def home():
 def api_all():
     return jsonify(books)
 
-app.run()
+if __name__ == '__main__':
+    app.run()
